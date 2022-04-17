@@ -1,11 +1,21 @@
 import mods.botania.ManaInfusion;
 import mods.botania.RuneAltar;
 import mods.botania.PureDaisy;
+import mods.botania.Apothecary;
+
+//删产能花
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "munchdew"}));
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "kekimurus"}));
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "shulk_me_not"}));
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "dandelifeon"}));
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}));
+
 
 //魔力池
 //mods.botania.ManaInfusion.addInfusion(,,);
 mods.botania.ManaInfusion.addInfusion(<t_addition:stable_transmutation_catalyst>,<t_addition:unstable_transmutation_catalyst>,4500);//嬗变催化剂
 mods.botania.ManaInfusion.addInfusion(<minecraft:melon>,<minecraft:wheat>,500);//西瓜
+mods.botania.ManaInfusion.addInfusion(<minecraft:reeds>,<minecraft:melon>,500);//西瓜
 mods.botania.ManaInfusion.addInfusion(<thermalfoundation:material:136>,<thermalfoundation:material:130>,4000);//蕴魔秘银
 
 //祭坛

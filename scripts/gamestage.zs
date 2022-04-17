@@ -1,0 +1,19 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
+import crafttweaker.item.IIngredient;
+import mods.ItemStages;
+
+mods.ItemStages.stageModItems("ban", "projecte");
+mods.ItemStages.stageModItems("ban", "nuclearcraft");
+//mods.ItemStages.stageModItems("ban", "immersiveengineering");
+mods.ItemStages.stageModItems("ban", "appliedenergistics2");
+mods.ItemStages.stageModItems("ban", "mekanism");
+mods.ItemStages.stageModItems("ban", "enderio");
+mods.ItemStages.stageModItems("ban", "integration_table");
+//mods.ItemStages.stageModItems("ban", "thermalfoundation");
+mods.ItemStages.stageModItems("ban", "techreborn");
+//mods.ItemStages.stageModItems("ban", "thermalcultivation");
+//mods.ItemStages.stageModItems("ban", "thermalinnovation");
+mods.ItemStages.stageModItems("ban", "draconicevolution");
+mods.ItemStages.stageModItems("ban", "draconicadditions");
+mods.ItemStages.stageModItems("ban", "avaritia");

@@ -32,7 +32,7 @@ recipes.remove(<magneticraft:thermopile>, false);
 recipes.remove(<bloodmagic:altar>, false);
 recipes.remove(<botania:manaresource:6>, false);
 recipes.remove(<botania:craftinghalo>, false);
-recipes.remove(<thermalfoundation:material:163>*4, false);
+recipes.remove(<thermalfoundation:material:163>, false);
 recipes.remove(<gregtech:machine_casing:10>, false);
 recipes.remove(<thermalfoundation:material:32>, false);
 recipes.remove(<magneticraft:iron_pipe>, false);
@@ -43,6 +43,70 @@ recipes.remove(<thermalfoundation:material:25>, false);
 recipes.remove(<thermalfoundation:material:26>, false);
 recipes.remove(<thermalfoundation:material:23>, false);
 recipes.remove(<thermalfoundation:material:32>, false);
+recipes.remove(<actuallyadditions:block_grinder>, false);
+recipes.removeShapeless(<thermalfoundation:material:163>*4, [<thermalfoundation:material:128>,<thermalfoundation:material:128>,<thermalfoundation:material:128>,<thermalfoundation:material:129>], true);
+recipes.remove(<gregtech:machine:521>, false);
+recipes.remove(<tconstruct:tooltables>, false);
+
+//lv机械方块
+recipes.remove(<gregtech:machine:501>, false);
+recipes.addShaped(<gregtech:machine:501>,
+[[<gregtech:cable:5237>, <astralsorcery:blockmarble>, <gregtech:cable:5237>],
+[<astralsorcery:blockmarble>,<gregtech:machine_casing:1>, <astralsorcery:blockmarble>],
+[<gregtech:cable:5237>, <astralsorcery:blockmarble>, <gregtech:cable:5237>]]);
+
+//火花魔力输入仓
+recipes.addShaped(<gugu-utils:sparkmanahatch>.withTag({}),
+[[null, <botania:spark>, null],
+[<botania:spark>,<modularmagic:blockmanaproviderinput> ,<botania:spark> ],
+[null, <botania:spark>,null ]]);
+
+//魔力输入
+recipes.addShaped(<modularmagic:blockmanaproviderinput>,
+[[<modularmachinery:itemmodularium>, <botania:manaresource>,<modularmachinery:itemmodularium> ],
+[<botania:manatablet>.withTag({}),<botania:pool> ,<botania:manatablet>.withTag({}) ],
+[<modularmachinery:itemmodularium>,<botania:manaresource> ,<modularmachinery:itemmodularium> ]]);
+
+//魔力装配台1控制器
+recipes.addShaped(<modularcontroller:mana_assemblemk1_controller>,
+[[<modularmachinery:blockcasing>, null, <modularmachinery:blockcasing>],
+[<forestry:flexible_casing>, <gregtech:meta_tool:6>.withTag({"GT.ToolStats": {Material: "darmstadtium"}}), <forestry:flexible_casing>],
+[<modularmachinery:blockcasing>,null , <modularmachinery:blockcasing>]]);
+
+//魔力加工厂1控制器
+recipes.addShaped(<modularcontroller:mana_processmk1_controller>,
+[[<modularmachinery:blockcasing>,null ,<modularmachinery:blockcasing> ],
+[null, <tconstruct:tooltables>, null],
+[<modularmachinery:blockcasing>, null, <modularmachinery:blockcasing>]]);
+
+//中型流体输入
+recipes.addShaped(<modularmachinery:blockfluidinputhatch:2>,
+[[null, <minecraft:hopper>,null ],
+[<modularmachinery:itemmodularium>, <modularmachinery:blockfluidinputhatch:1>, <modularmachinery:itemmodularium>],
+[<buildcraftfactory:tank>, <modularmachinery:itemmodularium>, <buildcraftfactory:tank>]]);
+
+//中型物品输出
+recipes.addShaped(<modularmachinery:blockoutputbus:2>,
+[[<actuallyadditions:block_giant_chest>,<modularmachinery:itemmodularium> ,<actuallyadditions:block_giant_chest>],
+[<modularmachinery:itemmodularium>,<modularmachinery:blockoutputbus:1> , <modularmachinery:itemmodularium>],
+[null, <minecraft:hopper>,null]]);
+
+//中型物品输入
+recipes.addShaped(<modularmachinery:blockinputbus:2>,
+[[null, <minecraft:hopper>, null],
+[<modularmachinery:itemmodularium>,<modularmachinery:blockinputbus:1> , <modularmachinery:itemmodularium>],
+[<actuallyadditions:block_giant_chest>, <modularmachinery:itemmodularium>, <actuallyadditions:block_giant_chest>]]);
+
+//蘑菇
+recipes.remove(<minecraft:brown_mushroom>, false);
+recipes.addShapeless(<minecraft:brown_mushroom>,[<minecraft:dye:2>,<minecraft:clay_ball>,<minecraft:melon>]);
+
+//嬗变催化剂成品
+recipes.remove(<t_addition:useful_transmutation_catalyst>, false);
+recipes.addShaped(<t_addition:useful_transmutation_catalyst>,
+[[null,<minecraft:magma_cream>,null],
+[<minecraft:magma_cream>,<t_addition:stable_transmutation_catalyst>,<minecraft:magma_cream> ],
+[null, <minecraft:magma_cream>,null ]]);
 
 //铁板
 recipes.addShaped(<thermalfoundation:material:32>,
@@ -121,8 +185,8 @@ recipes.addShaped(<gregtech:machine:1>,
 [<minecraft:brick_block>, <minecraft:furnace>, <minecraft:brick_block>]]);
 
 //青铜机器外壳
-recipes.remove(<gregtech:metal_casing>*3, false);
-recipes.addShaped(<gregtech:metal_casing>,
+recipes.remove(<gregtech:metal_casing>, false);
+recipes.addShaped(<gregtech:metal_casing>*4,
 [[null,<ore:circuitBasic>,null ],
 [<ore:circuitBasic>, <gregtech:machine_casing:10>,<ore:circuitBasic> ],
 [null, <ore:circuitBasic>, null]]);
@@ -277,7 +341,7 @@ recipes.addShaped(<nuclearcraft:cobblestone_generator>,
 recipes.remove(<astralsorcery:blockblackmarble>, false);
 recipes.addShaped(<astralsorcery:blockblackmarble>*8,
 [[<astralsorcery:blockmarble>, <astralsorcery:blockmarble>,<astralsorcery:blockmarble> ],
-[<astralsorcery:blockmarble>, <extendedcrafting:storage>,<astralsorcery:blockmarble> ],
+[<astralsorcery:blockmarble>,<extendedcrafting:material>,<astralsorcery:blockmarble> ],
 [<astralsorcery:blockmarble>, <astralsorcery:blockmarble>, <astralsorcery:blockmarble>]]);
 
 //黑铁锭
@@ -438,32 +502,32 @@ recipes.addShaped(<naturesaura:mover_cart>,
 //五个机座方块
 recipes.remove(<magneticraft:multiblock_parts:2>, false);
 recipes.addShaped(<magneticraft:multiblock_parts:2>*3,
-[[null,<gregtech:meta_item_1:14500> , null],
-[<gregtech:meta_item_1:14500>, <buildcraftsilicon:redstone_chipset>, <gregtech:meta_item_1:14500>],
-[null, <gregtech:meta_item_1:14500>, null]]);
+[[null,<thermalfoundation:material:131> , null],
+[<thermalfoundation:material:131>, <minecraft:redstone_block>,<thermalfoundation:material:131>],
+[null, <thermalfoundation:material:131>, null]]);
 
 recipes.remove(<magneticraft:multiblock_parts:3>, false);
 recipes.addShaped(<magneticraft:multiblock_parts:3>*3,
 [[null, <ore:ingotSilver>, null],
-[<ore:ingotSilver>, <buildcraftsilicon:redstone_chipset>, <ore:ingotSilver>],
-[null, <ore:ingotTungsten>,null]]);
+[<ore:ingotSilver>, <minecraft:redstone_block>, <ore:ingotSilver>],
+[null, <ore:ingotSilver>,null]]);
 
 recipes.remove(<magneticraft:multiblock_parts:4>, false);
 recipes.addShaped(<magneticraft:multiblock_parts:4>*3,
 [[null,<magneticraft:crafting:3> , null],
-[<magneticraft:crafting:3>, <buildcraftsilicon:redstone_chipset>,<magneticraft:crafting:3>],
+[<magneticraft:crafting:3>,<minecraft:redstone_block>,<magneticraft:crafting:3>],
 [null, <magneticraft:crafting:3>, null]]);
 
 recipes.remove(<magneticraft:multiblock_parts:5>, false);
 recipes.addShaped(<magneticraft:multiblock_parts:5>*3,
 [[null,<botania:manaresource> ,null],
-[<botania:manaresource>, <buildcraftsilicon:redstone_chipset>,<botania:manaresource> ],
+[<botania:manaresource>, <minecraft:redstone_block>,<botania:manaresource> ],
 [null, <botania:manaresource>, null]]);
 
 recipes.remove(<magneticraft:multiblock_parts:1>, false);
 recipes.addShaped(<magneticraft:multiblock_parts:1>*3,
 [[null,<actuallyadditions:item_crystal:5> , null],
-[<actuallyadditions:item_crystal:5>, <buildcraftsilicon:redstone_chipset>,<actuallyadditions:item_crystal:5>],
+[<actuallyadditions:item_crystal:5>, <minecraft:redstone_block>,<actuallyadditions:item_crystal:5>],
 [null, <actuallyadditions:item_crystal:5>,null]]);
 
 //木工机
@@ -500,4 +564,3 @@ recipes.addShaped(<t_addition:unstable_transmutation_catalyst>*2,
 [[<botania:livingrock>, <botania:livingwood>,<botania:livingrock> ],
 [<botania:livingwood>,<minecraft:lapis_block> , <botania:livingwood>],
 [<botania:livingrock>,<botania:livingwood> ,<botania:livingrock> ]]);
-

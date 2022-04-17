@@ -1,8 +1,27 @@
 import mods.gregtech.recipe.RecipeMap;
 
-val macerator = RecipeMap.getByName("macerator");//研磨机
-val alloy = RecipeMap.getByName("alloy_smelter");//合金炉
-val assembler = RecipeMap.getByName("assembler");//组装机
+val macerator=RecipeMap.getByName("macerator");//研磨机
+val alloy=RecipeMap.getByName("alloy_smelter");//合金炉
+val assembler=RecipeMap.getByName("assembler");//组装机
+val blast_furnace=RecipeMap.getByName("blast_furnace");//高炉
+val extractor=RecipeMap.getByName("extractor");//提取机
+
+//lv机器方块
+assembler.findRecipe(16,[<gregtech:machine_casing:1>,<gregtech:cable:5071>*2], [null]).remove();
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine_casing:1>,<astralsorcery:blockmarble>*2,<gregtech:cable:5071>*4])
+    .outputs([<gregtech:machine_casing:1>])
+    .duration(50)
+    .EUt(16)
+    .buildAndRegister();
+
+//钙粉
+extractor.recipeBuilder()
+    .inputs([<minecraft:dye:15>*5])
+    .outputs([<gregtech:meta_item_1:2011>*2])
+    .duration(100)
+    .EUt(10)
+    .buildAndRegister();
 
 //碳化铅锭
 alloy.recipeBuilder()

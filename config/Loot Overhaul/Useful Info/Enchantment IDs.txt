@@ -208,20 +208,20 @@ advancedrocketry:spacebreathing
    - Max Level: 1
 
 
-endercore:autosmelt
-   - Id: 25
-   - Rarity: RARE
-   - Treasure: false
-   - Min Level: 1
-   - Max Level: 1
-
-
 endercore:xpboost
-   - Id: 26
+   - Id: 25
    - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 3
+
+
+endercore:autosmelt
+   - Id: 26
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
 
 
 enderio:repellent
@@ -232,17 +232,17 @@ enderio:repellent
    - Max Level: 4
 
 
-enderio:soulbound
+enderio:witherweapon
    - Id: 28
-   - Rarity: VERY_RARE
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
 
 
-enderio:witherarrow
+enderio:soulbound
    - Id: 29
-   - Rarity: UNCOMMON
+   - Rarity: VERY_RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 1
@@ -256,7 +256,7 @@ enderio:shimmer
    - Max Level: 1
 
 
-enderio:witherweapon
+enderio:witherarrow
    - Id: 31
    - Rarity: UNCOMMON
    - Treasure: false

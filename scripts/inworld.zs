@@ -6,8 +6,8 @@ import mods.inworldcrafting.FluidToFluid;
 //转物品 FluidToItem.transform( , , , );
 //转液体 FluidToFluid.transform(ILiquidStack output, ILiquidStack inputFluid, IIngredient[] inputItems, @Optional boolean consume);
 
-//嬗变催化剂
-FluidToItem.transform(<t_addition:useful_transmutation_catalyst>,<liquid:lava>,[<t_addition:stable_transmutation_catalyst>],true);
+//大理石
+FluidToItem.transform( <astralsorcery:blockmarble>*4, <liquid:water>, [<gregtech:meta_item_1:2506>,<gregtech:meta_item_1:2159>], false);
 
 //黏土块
 FluidToItem.transform(<minecraft:clay>,<liquid:water>,[<ore:dirt>],true);

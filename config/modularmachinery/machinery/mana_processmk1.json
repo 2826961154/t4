@@ -49,7 +49,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "thermalfoundation:storage@2"
             ]
         },
         {
@@ -81,7 +81,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "thermalfoundation:storage@2"
             ]
         },
         {
@@ -377,7 +377,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "thermalfoundation:storage@1"
             ]
         },
         {
@@ -385,7 +385,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "thermalfoundation:storage@2"
             ]
         },
         {
@@ -401,7 +401,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "thermalfoundation:storage@1"
             ]
         },
         {
@@ -409,7 +409,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "thermalfoundation:storage@1"
             ]
         },
         {
@@ -425,7 +425,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "thermalfoundation:storage_alloy@2"
+                "thermalfoundation:storage@2"
             ]
         },
         {
@@ -433,7 +433,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "thermalfoundation:storage_alloy@3"
+                "thermalfoundation:storage@1"
             ]
         },
         {

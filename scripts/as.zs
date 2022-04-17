@@ -6,6 +6,13 @@ import mods.astralsorcery.Altar;
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/marble_black_raw");
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/nocturnalpowder");
 
+//大型青铜锅炉
+mods.astralsorcery.Altar.addAttunementAltarRecipe("mypackname:daxingqingtongguolu1", <gregtech:machine:521>, 1000, 200, [
+            <gregtech:cable:6071>, <gregtech:metal_casing>, <gregtech:cable:6071>,
+            <gregtech:metal_casing>,<gregtech:machine:501>, <gregtech:metal_casing>,
+            <gregtech:cable:6071>, <gregtech:metal_casing>,<gregtech:cable:6071>,
+           <ore:circuitBasic>, <ore:circuitBasic>,<ore:circuitBasic>, <ore:circuitBasic>]);
+
 //透镜
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/crystallens");
 mods.astralsorcery.Altar.addAttunementAltarRecipe("mypackname:toujing", <astralsorcery:blocklens>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 900, fract: 0, purity: 100, sizeOverride: -1}}}), 2000, 400, [

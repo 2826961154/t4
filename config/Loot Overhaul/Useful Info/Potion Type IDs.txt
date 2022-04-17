@@ -196,16 +196,6 @@ enderio:long_withering
        minecraft:wither - 2400 - 0 - false - true
 
 
-enderio:confusion
-   - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
-
-
-enderio:long_confusion
-   - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
-
-
 enderio:floating
    - Effects: 
        minecraft:levitation - 140 - 0 - false - true
@@ -219,6 +209,16 @@ enderio:strong_floating
 enderio:long_floating
    - Effects: 
        minecraft:levitation - 560 - 0 - false - true
+
+
+enderio:confusion
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderio:long_confusion
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
 
 
 abyssalcraft:cplague

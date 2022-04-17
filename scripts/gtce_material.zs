@@ -19,3 +19,6 @@ val yingtanhuaqian= MaterialRegistry.createIngotMaterial(504, "yingtanhuaqian", 
 
 //太拉钢锭
 val citailagangding= MaterialRegistry.createIngotMaterial(505, "citailagangding", 0x173611, "shiny", 5);
+
+//氧化钙锭
+val yanghuagaiding= MaterialRegistry.createIngotMaterial(506, "yanghuagaiding", 0xe8e8a5, "shiny", 5);
