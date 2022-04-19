@@ -138,9 +138,9 @@ recipes.addShaped(<botania:terraplate>,
 //lv机器外壳
 recipes.remove(<gregtech:machine_casing:1>, false);
 recipes.addShaped(<gregtech:machine_casing:1>,
-[[<gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>],
+[[<gregtech:meta_item_1:12184>, <extendedcrafting:material:8>, <gregtech:meta_item_1:12184>],
 [<ore:circuitBasic>,<gregtech:meta_tool:8>.withTag({"GT.ToolStats": {Material: "darmstadtium"}}) , <ore:circuitBasic>],
-[<gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>, <gregtech:meta_item_1:12184>]]);
+[<gregtech:meta_item_1:12184>, <extendedcrafting:material:8>, <gregtech:meta_item_1:12184>]]);
 
 //土高炉
 recipes.remove(<gregtech:machine:510>, false);

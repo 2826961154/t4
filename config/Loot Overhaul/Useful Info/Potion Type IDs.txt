@@ -186,6 +186,16 @@ minecraft:luck
        minecraft:luck - 6000 - 0 - false - true
 
 
+enderio:confusion
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderio:long_confusion
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
+
+
 enderio:withering
    - Effects: 
        minecraft:wither - 900 - 0 - false - true
@@ -209,16 +219,6 @@ enderio:strong_floating
 enderio:long_floating
    - Effects: 
        minecraft:levitation - 560 - 0 - false - true
-
-
-enderio:confusion
-   - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
-
-
-enderio:long_confusion
-   - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
 
 
 abyssalcraft:cplague

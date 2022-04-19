@@ -365,9 +365,9 @@ immersiveengineering:revolvershotflare - 362
 immersiveengineering:explosive - 363
 immersiveengineering:fluorescenttube - 364
 actuallyadditions:worm - 365
-forestry:butterflyge - 366
-forestry:cart.beehouse - 367
-forestry:cart.apiary - 368
+forestry:cart.beehouse - 366
+forestry:cart.apiary - 367
+forestry:butterflyge - 368
 gravestone:player_ghost - 369
 immersiveintelligence:minecart_wooden_crate - 370
 immersiveintelligence:minecart_reinforced_crate - 371
@@ -384,3 +384,4 @@ nuclearcraft:feral_ghoul - 381
 qmd:gamma_flash - 382
 qmd:lepton_beam - 383
 qmd:gluon_beam - 384
+extrabotany:phantomsword - 385

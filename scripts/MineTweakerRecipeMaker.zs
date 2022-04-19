@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<naturesaura:offering_table>);
 recipes.remove(<botania:pool>);
 recipes.remove(<botania:alfheimportal>);
 recipes.remove(<tconstruct:pattern> * 4);
@@ -33,6 +34,8 @@ recipes.removeShaped(<minecraft:clay:*>, [[<ore:dustClay>, <ore:dustClay>], [<or
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<modularcontroller:hell_tellmk1_controller>, [[<magneticraft:heavy_plates:6>, <naturesaura:aura_bottle>, <magneticraft:heavy_plates:6>], [<forestry:flexible_casing>, <actuallyadditions:block_misc:9>, <forestry:flexible_casing>], [<magneticraft:heavy_plates:6>, <naturesaura:aura_bottle>, <magneticraft:heavy_plates:6>]]);
+recipes.addShaped(<naturesaura:offering_table>, [[<naturesaura:infused_stone>, <botania:pool>, <naturesaura:infused_stone>], [<naturesaura:token_joy>, <naturesaura:infused_stone>, <naturesaura:token_joy>], [<naturesaura:infused_iron_block>, <naturesaura:infused_iron_block>, <naturesaura:infused_iron_block>]]);
 recipes.addShaped(<botania:pool>, [[<ore:ingotManasteel>, <botania:pool:2>, <ore:ingotManasteel>], [<botania:livingrock>, <ore:manaPearl>, <botania:livingrock>]]);
 recipes.addShaped(<minecraft:planks> * 2, [[<ore:logWood>]]);
 recipes.addShaped(<minecraft:clay_ball> * 2, [[<ore:blockClay>]]);
